@@ -56,3 +56,45 @@ body {
 .slide:nth-of-type(5) {
   background: purple;
 }
+
+/* custom */
+
+.container {
+  max-width: 992px;
+  padding: 0 20px;
+  margin: auto;
+}
+
+.slides {
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  gap: 20px;
+}
+
+.control {
+  padding: 10px 20px;
+  background-color: yellow;
+  display: block;
+  cursor: pointer;
+  user-select: none;
+}
+
+.indicators {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.indicator {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: lightblue;
+}
+
+.indicator.active {
+  background-color: red;
+}
